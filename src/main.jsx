@@ -14,66 +14,6 @@ import AddPostPage from "./Components/AddPostPage.jsx";
 import EditPostPage from "./Components/EditPostPage.jsx";
 import PostPage from "./Components/PostPage.jsx";
 
-// const router = createBrowserRouter([
-//     {
-//         path: "/",
-//         element: <App />,
-//         children: [
-//             {
-//                 path: "/",
-//                 element: <HomePage />,
-//             },
-
-//             {
-//                 path: "/login",
-//                 element: (
-//                     <Protected authentication={false}>
-//                         <LoginPage />
-//                     </Protected>
-//                 ),
-//             },
-//             {
-//                 path: "/signup",
-//                 element: (
-//                     <Protected authentication={false}>
-//                         <SignupPage />
-//                     </Protected>
-//                 ),
-//             },
-//             {
-//                 path: "/all-posts",
-//                 element: (
-//                     <Protected authentication>
-//                         <AllPostPage />
-//                     </Protected>
-//                 ),
-//             },
-//             {
-//                 path: "/add-post",
-//                 element: (
-//                     <Protected authentication>
-//                         {" "}
-//                         <AddPostPage />
-//                     </Protected>
-//                 ),
-//             },
-//             {
-//                 path: "/edit-post/:slug",
-//                 element: (
-//                     <Protected authentication>
-//                         {" "}
-//                         <EditPostPage />
-//                     </Protected>
-//                 ),
-//             },
-//             {
-//                 path: "/post/:slug",
-//                 element: <PostPage />,
-//             },
-//         ],
-//     },
-// ]);
-
 const router = createBrowserRouter([
     {
         path: "/",
