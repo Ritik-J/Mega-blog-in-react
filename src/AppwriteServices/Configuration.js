@@ -26,8 +26,8 @@ export class Service {
         // treating slug as documnet id you can also use id.unique method to genrate unique doucumnet id
         slug,
         {
-          Title: Title, // Ensure 'Title' attribute matches what the server expects
-          Content: Content, // Adjust other attribute names if necessary
+          Title: Title,
+          Content: Content,
           featuredImage: featuredImage,
           Status: Status,
           userId: userId,
